@@ -4,7 +4,7 @@ About:
 This program implements equivalent of imfill in Matlab.
 First of all the image is binary-thresholded.
 Then FloodFill function is used to fill the connected components.
-The resultant image is obtained by logical OR of inverted floodfill image
+The resultant image is obtained by bitwise(pixelwise) OR of inverted floodfill image
 and the binary thresholded image.
 */
 
